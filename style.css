@@ -1,0 +1,36 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.padding-image {
+    padding-top: 3px;
+    padding-right: 70px;
+    padding-bottom: 1050px;
+    padding-left: 850px;
+}
+.padding-text {
+    padding-top: 250px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.main {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.buttons {
+    background-color: pink; 
+    border: none;
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 800px;
+    margin-right: 20px;
+    margin-bottom: auto;
+  }
