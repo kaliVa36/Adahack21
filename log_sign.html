@@ -1,54 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <body class="main-header1" ></style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-    <title>WST</title>
+    <title>TWS</title>
     <link rel = "icon" href = "logo2.png">
     <style>
         body {font-family: Arial, Helvetica, sans-serif;}
-        form {border: 500px solid #f1f1f1;}
         
-        @media screen and (max-width: 300px) { /* Change styles for span and cancel button on extra small screens */
-        span.psw {
-            display: block;
-            float: none;
-        }
-        .cancelbtn {
-            width: 100%;
-        }
-        }
     </style>
 </head>
 <body>
-
-<form action="/action_page.php" method="post">
-  <div class="imgcontainer">
-    <img src="logo_square.png" alt="Avatar" class="avatar">
-  </div>
+    <div style="background-color: mediumorchid; color: white; font-size: 30px; font: sans-serif; text-align:left; vertical-align: middle; padding:30px 77px;"> TWS - For You(th) </div>
+        <form action="/action_page.php" method="post">
+        
+    </div>
 
   <div class="container">
+      <h2>Log in</h2>
+    
     <label for="uname"><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
+    <input type="password" placeholder="Enter Password" name="psw" required>   
+    
+    <input class="buttons" onclick="window.location.href='signin.html';" value="Sign in"/>
+   
+    <button type="submit"  onclick="window.location.href='feed.html';">Login</button>
+    
+    
 
-  <div class="container" style="background-color:#f1f1f1">
-   <!--<button type="button" class="cancelbtn">Cancel</button>-->
-    <!--<span class="psw">Forgot <a href="#">password?</a></span>-->
-  </div>
-</form>
+    </div>
+<form>
+    
+    
 
 </body>
 </html>
-<form>
-    <input class="buttons" onclick="window.location.href='login.html';" value="Do you have an acc?"/>
-</form>

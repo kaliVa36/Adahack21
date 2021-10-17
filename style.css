@@ -1,3 +1,4 @@
+
 .center {
     display: block;
     margin-left: auto;
@@ -22,17 +23,17 @@
     padding-right: 30%;
 }
 .buttons {
-    background-color: pink; 
+    background-color: mediumorchid; 
     border: none;
-    color:black;
+    color:white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin-left: 800px;
-    margin-right: 20px;
-    margin-bottom: auto;
+    position:absolute; 
+    left:1000px; 
+    top:120px;
   }
 
   input[type=text], input[type=password] {
@@ -75,10 +76,62 @@
   }
   
   .container {
-    padding: 16px;
+    padding: 200px;
+    padding: 40px -11px;
+    padding-left:-100px; 
+    top: 120px;
   }
   
   span.psw {
     float: right;
     padding-top: 16px;
+  }
+  
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("joyful-pretty-young-woman-stretching-arms-picture-id1181317190.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+.padding-image {
+    padding-top: 100px;
+    padding-right: 240px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    left: 1100px; 
+    top: 1120px;
+    bottom: -10px;
+}
+.div-position {
+    position: fixed;
+    bottom: -100px;
+    right: 0;
+    width: 300px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.main-header1 {
+  background-color: rgba(0, 0, 0, .6);
+  background-image: url("cheerful-young-woman-smiling-while-chatting-on-smartphone-on-purple-picture-id1208340393.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+.main-header2 {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("3rd-woman.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+b {
+  color: white;
+}
+.boxed {
+    border: 1px solid green ;
   }

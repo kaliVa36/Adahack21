@@ -17,12 +17,28 @@ html, body {
 }
 
 .nav a {
-    padding: .5em
-    text-decoration: 0
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: rgb(151, 68, 172);
+}
 
+.main-nav {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    color: white;
+    background-color: mediumorchid;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .main-header {
-    background-image: url("TWS.jpg");
+    background-image: url("smiling-young-woman-using-digital-tablet-on-purple-background-picture-id1211518217.jpg");
     background-size: cover;
 }
